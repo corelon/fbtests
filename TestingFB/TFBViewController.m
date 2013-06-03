@@ -13,6 +13,8 @@
 @interface TFBViewController ()
 - (IBAction)publishButtonAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *publishButton;
+- (IBAction)sendRequestButtonAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *sendRequestButton;
 
 
 @end
@@ -48,9 +50,13 @@
     if (FBSession.activeSession.isOpen) {
         self.publishButton.hidden = NO;
         [self.authButton setTitle:@"Logout" forState:UIControlStateNormal];
+        
+        self.sendRequestButton.hidden = NO;
     } else {
         self.publishButton.hidden = YES;
         [self.authButton setTitle:@"Login" forState:UIControlStateNormal];
+        
+        self.sendRequestButton.hidden = YES;
     }
 }
 
@@ -74,4 +80,10 @@
     [self presentViewController:viewController animated:YES completion:nil];
 }
 
+- (IBAction)sendRequestButtonAction:(id)sender {
+    TFBAppDelegate *appDelegate = (TFBAppDelegate *) [[UIApplication sharedApplication] delegate];
+    if (FBSession.activeSession.isOpen) {
+        [appDelegate sendRequest];
+    }
+}
 @end

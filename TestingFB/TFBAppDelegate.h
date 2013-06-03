@@ -19,5 +19,6 @@ extern NSString *const FBSessionStateChangedNotification;
 @property (strong, nonatomic) TFBViewController *viewController;
 - (BOOL)openSessionWithAllowLoginUI:(BOOL)allowLoginUI;
 - (void)closeSession;
+- (void)sendRequest;
 
 @end

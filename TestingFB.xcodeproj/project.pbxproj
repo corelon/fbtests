@@ -19,8 +19,6 @@
 		6AD29878175BDA8E00F5C41A /* TFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD29877175BDA8E00F5C41A /* TFBViewController.m */; };
 		6AD2987B175BDA8E00F5C41A /* TFBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD29879175BDA8E00F5C41A /* TFBViewController_iPhone.xib */; };
 		6AD2987E175BDA8E00F5C41A /* TFBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD2987C175BDA8E00F5C41A /* TFBViewController_iPad.xib */; };
-		6AD29885175BDAED00F5C41A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD29884175BDAED00F5C41A /* FacebookSDK.framework */; };
-		6AD29887175BDB5F00F5C41A /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AD29886175BDB5F00F5C41A /* FacebookSDKResources.bundle */; };
 		6AD2988D175BDB9300F5C41A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD29888175BDB9300F5C41A /* Accounts.framework */; };
 		6AD2988E175BDB9300F5C41A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD29889175BDB9300F5C41A /* AdSupport.framework */; };
 		6AD2988F175BDB9300F5C41A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD2988A175BDB9300F5C41A /* libsqlite3.dylib */; };
@@ -28,6 +26,7 @@
 		6AD29891175BDB9300F5C41A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD2988C175BDB9300F5C41A /* Social.framework */; };
 		6AD29895175C081300F5C41A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD29893175C081200F5C41A /* ShareViewController.m */; };
 		6AD29896175C081300F5C41A /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD29894175C081200F5C41A /* ShareViewController.xib */; };
+		A065B935175CB820007D8B74 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A065B934175CB820007D8B74 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +47,6 @@
 		6AD29877175BDA8E00F5C41A /* TFBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBViewController.m; sourceTree = "<group>"; };
 		6AD2987A175BDA8E00F5C41A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFBViewController_iPhone.xib; sourceTree = "<group>"; };
 		6AD2987D175BDA8E00F5C41A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFBViewController_iPad.xib; sourceTree = "<group>"; };
-		6AD29884175BDAED00F5C41A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		6AD29886175BDB5F00F5C41A /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		6AD29888175BDB9300F5C41A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6AD29889175BDB9300F5C41A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		6AD2988A175BDB9300F5C41A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -58,6 +55,7 @@
 		6AD29892175C081200F5C41A /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		6AD29893175C081200F5C41A /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		6AD29894175C081200F5C41A /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		A065B934175CB820007D8B74 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A065B935175CB820007D8B74 /* FacebookSDK.framework in Frameworks */,
 				6AD2988D175BDB9300F5C41A /* Accounts.framework in Frameworks */,
 				6AD2988E175BDB9300F5C41A /* AdSupport.framework in Frameworks */,
 				6AD2988F175BDB9300F5C41A /* libsqlite3.dylib in Frameworks */,
@@ -73,7 +72,6 @@
 				6AD2985F175BDA8E00F5C41A /* UIKit.framework in Frameworks */,
 				6AD29861175BDA8E00F5C41A /* Foundation.framework in Frameworks */,
 				6AD29863175BDA8E00F5C41A /* CoreGraphics.framework in Frameworks */,
-				6AD29885175BDAED00F5C41A /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +81,7 @@
 		6AD29852175BDA8E00F5C41A = {
 			isa = PBXGroup;
 			children = (
+				A065B934175CB820007D8B74 /* FacebookSDK.framework */,
 				6AD29864175BDA8E00F5C41A /* TestingFB */,
 				6AD2985D175BDA8E00F5C41A /* Frameworks */,
 				6AD2985C175BDA8E00F5C41A /* Products */,
@@ -105,8 +104,6 @@
 				6AD2988A175BDB9300F5C41A /* libsqlite3.dylib */,
 				6AD2988B175BDB9300F5C41A /* Security.framework */,
 				6AD2988C175BDB9300F5C41A /* Social.framework */,
-				6AD29886175BDB5F00F5C41A /* FacebookSDKResources.bundle */,
-				6AD29884175BDAED00F5C41A /* FacebookSDK.framework */,
 				6AD2985E175BDA8E00F5C41A /* UIKit.framework */,
 				6AD29860175BDA8E00F5C41A /* Foundation.framework */,
 				6AD29862175BDA8E00F5C41A /* CoreGraphics.framework */,
@@ -203,7 +200,6 @@
 				6AD29875175BDA8E00F5C41A /* Default-568h@2x.png in Resources */,
 				6AD2987B175BDA8E00F5C41A /* TFBViewController_iPhone.xib in Resources */,
 				6AD2987E175BDA8E00F5C41A /* TFBViewController_iPad.xib in Resources */,
-				6AD29887175BDB5F00F5C41A /* FacebookSDKResources.bundle in Resources */,
 				6AD29896175C081300F5C41A /* ShareViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,8 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+					"$(SRCROOT)/../../../FacebookSDK",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestingFB/TestingFB-Prefix.pch";
@@ -329,8 +325,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+					"$(SRCROOT)/../../../FacebookSDK",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestingFB/TestingFB-Prefix.pch";
@@ -359,6 +355,7 @@
 				6AD29883175BDA8E00F5C41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
